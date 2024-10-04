@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Back to Series List</a>
+        </nav>
+
+        <h1 id="seriesTitle">Loading...</h1>
+        <ul id="seasonList"></ul>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const seriesId = urlParams.get('series');
+
+        fetch('content.json')
+            .then(response => response.json())
+            .then(data => {
+                const series = data.series.find(s => s.id == seriesId);
+                if (series) {
+                    document.getElementById('seriesTitle').textContent = series.title;
+
+                    const seasonList = document.getElementById('seasonList');
+                    series.seasons.forEach(season => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `Season ${season.season_number}`;
+                        li.addEventListener('click', () => {
+                            window.location.href = `season.html?series=${series.id}&season=${season.season_number}`;
+                        });
+                        seasonList.appendChild(li);
+                    });
+                } else {
+                    document.getElementById('seriesTitle').textContent = 'Series Not Found';
+                }
+            });
+    </script>
+</body>
+
+</html>

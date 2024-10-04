@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Season Episodes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="series.html?series={{seriesId}}">Back to Season List</a>
+        </nav>
+
+        <h1 id="seasonTitle">Loading...</h1>
+        <ul id="episodeList"></ul>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const seriesId = urlParams.get('series');
+        const seasonNumber = urlParams.get('season');
+
+        fetch('content.json')
+            .then(response => response.json())
+            .then(data => {
+                const series = data.series.find(s => s.id == seriesId);
+                if (series) {
+                    const season = series.seasons.find(s => s.season_number == seasonNumber);
+                    if (season) {
+                        document.getElementById('seasonTitle').textContent = `${series.title} - Season ${season.season_number}`;
+
+                        const episodeList = document.getElementById('episodeList');
+                        season.episodes.forEach(episode => {
+                            const li = document.createElement('li');
+                            li.innerHTML = `${episode.episode_number} - ${episode.title}`;
+                            li.addEventListener('click', () => {
+                                window.location.href = `episode.html?series=${seriesId}&season=${seasonNumber}&episode=${episode.episode_number}`;
+                            });
+                            episodeList.appendChild(li);
+                        });
+                    } else {
+                        document.getElementById('seasonTitle').textContent = 'Season Not Found';
+                    }
+                } else {
+                    document.getElementById('seasonTitle').textContent = 'Series Not Found';
+                }
+            });
+    </script>
+</body>
+
+</html>

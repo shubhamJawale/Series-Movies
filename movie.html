@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html">Back to Movie List</a>
+        </nav>
+
+        <h1 id="movieTitle">Loading...</h1>
+        <iframe id="movieVideo" src="" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const movieId = urlParams.get('movie');
+
+        fetch('content.json')
+            .then(response => response.json())
+            .then(data => {
+                const movie = data.movies.find(m => m.id == movieId);
+                if (movie) {
+                    document.getElementById('movieTitle').textContent = movie.title;
+                    document.getElementById('movieVideo').src = movie.embed_url;
+                } else {
+                    document.getElementById('movieTitle').textContent = 'Movie Not Found';
+                }
+            });
+    </script>
+</body>
+
+</html>

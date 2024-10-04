@@ -1,0 +1,53 @@
+{
+    "movies": [{
+            "id": 1,
+            "title": "Movie 1 - The Great Adventure",
+            "embed_url": "https://www.example.com/embed/movie1"
+        },
+        {
+            "id": 2,
+            "title": "Movie 2 - The Sequel",
+            "embed_url": "https://www.example.com/embed/movie2"
+        }
+    ],
+    "series": [{
+            "id": 1,
+            "title": "Series 1 - Epic Saga",
+            "seasons": [{
+                    "season_number": 1,
+                    "episodes": [{
+                            "episode_number": 1,
+                            "title": "Episode 1 - The Beginning",
+                            "embed_url": "https://drive.google.com/file/d/1nmWG0pWIvjbEbW-z_MH3DpT62yn-vrfS/preview"
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "Episode 2 - The Journey Continues",
+                            "embed_url": "https://www.example.com/embed/series1_s1e2"
+                        }
+                    ]
+                },
+                {
+                    "season_number": 2,
+                    "episodes": [{
+                        "episode_number": 1,
+                        "title": "Episode 1 - The New Chapter",
+                        "embed_url": "https://www.example.com/embed/series1_s2e1"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Series 2 - Mystery Tales",
+            "seasons": [{
+                "season_number": 1,
+                "episodes": [{
+                    "episode_number": 1,
+                    "title": "Episode 1 - The Mystery Begins",
+                    "embed_url": "https://www.example.com/embed/series2_s1e1"
+                }]
+            }]
+        }
+    ]
+}

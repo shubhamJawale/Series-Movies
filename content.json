@@ -1,0 +1,52 @@
+{
+    "movies": [],
+    "series": [{
+        "id": 1,
+        "title": "Perception",
+        "seasons": [{
+            "season_number": 1,
+            "episodes": [{
+                    "episode_number": 1,
+                    "title": "Episode 1",
+                    "embed_url": "https://drive.google.com/file/d/1nmWG0pWIvjbEbW-z_MH3DpT62yn-vrfS/preview"
+                },
+                {
+                    "episode_number": 2,
+                    "title": "Episode 2",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 3,
+                    "title": "Episode 3",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 4,
+                    "title": "Episode 4",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 5,
+                    "title": "Episode 5",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 6,
+                    "title": "Episode 6",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 7,
+                    "title": "Episode 7",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                },
+                {
+                    "episode_number": 8,
+                    "title": "Episode 8",
+                    "embed_url": "https://www.example.com/embed/series1_s1e2"
+                }
+
+            ]
+        }]
+    }]
+}
