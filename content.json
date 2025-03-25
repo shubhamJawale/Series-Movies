@@ -1,6 +1,7 @@
 {
     "movies": [],
-    "series": [{
+    "series": [
+        {
         "id": 1,
         "title": "Perception",
         "seasons": [{
@@ -132,5 +133,30 @@
                 ]
             }
         ]
-    }]
+    },
+    {
+        "id": 1,
+        "title": "Missmatched",
+        "seasons": [
+            {
+                "season_number": 1,
+                "episodes": [
+                    {
+                        "episode_number": 1,
+                        "title": "Episode 1",
+                        "embed_url": "https://drive.google.com/file/d/1P9uSGdfLfAQi5Qc88Fr0zd6klchlrOoT/preview"
+                    },
+                    {
+                        "episode_number": 2,
+                        "title": "Episode 2",
+                        "embed_url": "https://drive.google.com/file/d/1POUvAW_fCAgpPhrOrUHmg1suc4aIUAoy/preview"
+                    }
+
+
+                ]
+                }
+                ]
+
+    }
+]
 }
