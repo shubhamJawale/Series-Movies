@@ -2,161 +2,181 @@
     "movies": [],
     "series": [
         {
-        "id": 1,
-        "title": "Perception",
-        "seasons": [{
-                "season_number": 1,
-                "episodes": [{
-                        "episode_number": 1,
-                        "title": "Episode 1",
-                        "embed_url": "https://drive.google.com/file/d/11ZUvS8_IblVzWTIuwqBjU48RD_ZV8Is_/preview"
-                    },
-                    {
-                        "episode_number": 2,
-                        "title": "Episode 2",
-                        "embed_url": "https://drive.google.com/file/d/140MDE1b2_rXWBkDBOGxx3kTCv8xjhPU4/preview"
-                    },
-                    {
-                        "episode_number": 3,
-                        "title": "Episode 3",
-                        "embed_url": "https://drive.google.com/file/d/1HJp9Cl0W0NSRxTNtRZsLbQHb544gtC6E/preview"
-                    },
-                    {
-                        "episode_number": 4,
-                        "title": "Episode 4",
-                        "embed_url": "https://drive.google.com/file/d/1yUGlk8kDjZuv32HNSh96hlomrgd2jMu2/preview"
-                    },
-                    {
-                        "episode_number": 5,
-                        "title": "Episode 5",
-                        "embed_url": "https://drive.google.com/file/d/17X7feqPolslG80qYfLWYiPDn0i1OTQAv/preview"
-                    },
-                    {
-                        "episode_number": 6,
-                        "title": "Episode 6",
-                        "embed_url": "https://drive.google.com/file/d/1dOFCrUt71QSqUz_9kKWokHGBqyR1WuFu/preview"
-                    },
-                    {
-                        "episode_number": 7,
-                        "title": "Episode 7",
-                        "embed_url": "https://drive.google.com/file/d/1WKoavr16tmBuAJCgixqXf7TzGzjkN-dU/preview"
-                    },
-                    {
-                        "episode_number": 8,
-                        "title": "Episode 8",
-                        "embed_url": "https://drive.google.com/file/d/1kJ04Fo1mE-Jn3aagdnb2CGvfkcLbJPbL/preview"
-                    },
-                    {
-                        "episode_number": 9,
-                        "title": "Episode 9",
-                        "embed_url": "https://drive.google.com/file/d/1t2-hKLgw880rfY0Xrjv4C7BDLNApS4kI/preview"
-                    },
-                    {
-                        "episode_number": 10,
-                        "title": "Episode 10",
-                        "embed_url": "https://drive.google.com/file/d/1f0g6uIiwHiTuKZWBrAY-NqgjfgHWWLJq/preview"
-                    }
-
-                ]
-            },
-            {
-                "season_number": 2,
-                "episodes": [{
-                        "episode_number": 1,
-                        "title": "Episode 1",
-                        "embed_url": "https://drive.google.com/file/d/1fG6-X37KkGWkOmv-zSSU4vh6jzNpyV_-/preview"
-                    },
-                    {
-                        "episode_number": 2,
-                        "title": "Episode 2",
-                        "embed_url": "https://drive.google.com/file/d/1rU_UFFqA9IUMGP-JjNfdAqqvS0m6mpUA/preview"
-                    },
-                    {
-                        "episode_number": 3,
-                        "title": "Episode 3",
-                        "embed_url": "https://drive.google.com/file/d/1EcDBbirUxxu7L0hCME5Aji61cFeLiDiU/preview"
-                    },
-                    {
-                        "episode_number": 4,
-                        "title": "Episode 4",
-                        "embed_url": "https://drive.google.com/file/d/1QgcFondX-iON-T4UF9j6bxvRe7WYF4nV/preview"
-                    },
-                    {
-                        "episode_number": 5,
-                        "title": "Episode 5",
-                        "embed_url": "https://drive.google.com/file/d/1nJ8qua7y4-3fpFAsFKmsN7UBUG2AAE8P/preview"
-                    },
-                    {
-                        "episode_number": 6,
-                        "title": "Episode 6",
-                        "embed_url": "https://drive.google.com/file/d/1OHzW07PeAmPkt89Y1dkhtOUiMkduuGOh/preview"
-                    },
-                    {
-                        "episode_number": 7,
-                        "title": "Episode 7",
-                        "embed_url": "https://drive.google.com/file/d/1i-ALC86oC3G0oV0BLnCvHw6Hr0GMxR-f/preview"
-                    }, {
-                        "episode_number": 8,
-                        "title": "Episode 8",
-                        "embed_url": "https://drive.google.com/file/d/1AHlasQDy1WNJL4NL8wNjLN_Cp82OOYMQ/preview"
-                    },
-                    {
-                        "episode_number": 9,
-                        "title": "Episode 9",
-                        "embed_url": "https://drive.google.com/file/d/12Ej5Vn4AwWH9RGan5tjDxdkZsEgK2XNY/preview"
-                    },
-                    {
-                        "episode_number": 10,
-                        "title": "Episode 10",
-                        "embed_url": "https://drive.google.com/file/d/1S67lJexF0N58ifzym-VudsFrXlT9dJsy/preview"
-                    },
-                    {
-                        "episode_number": 11,
-                        "title": "Episode 11",
-                        "embed_url": "https://drive.google.com/file/d/1cXsQVYm18B5zV0_n6_lPmm-kB2E28Evm/preview"
-                    },
-                    {
-                        "episode_number": 12,
-                        "title": "Episode 12",
-                        "embed_url": "https://drive.google.com/file/d/1d5FSBcexBHKOAawMuke6fp6MG_-4KlEN/preview"
-                    },
-                    {
-                        "episode_number": 13,
-                        "title": "Episode 13",
-                        "embed_url": "https://drive.google.com/file/d/1_rvycNUdQ1bnWQDjpkEr7Sa81kj2FAeF/preview"
-                    },
-                    {
-                        "episode_number": 14,
-                        "title": "Episode 14",
-                        "embed_url": "https://drive.google.com/file/d/1ui9Vcwk7J8mb0sCCNqp86nF69mzM-9_f/preview"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Missmatched",
-        "seasons": [
-            {
-                "season_number": 1,
-                "episodes": [
-                    {
-                        "episode_number": 1,
-                        "title": "Episode 1",
-                        "embed_url": "https://drive.google.com/file/d/1P9uSGdfLfAQi5Qc88Fr0zd6klchlrOoT/preview"
-                    },
-                    {
-                        "episode_number": 2,
-                        "title": "Episode 2",
-                        "embed_url": "https://drive.google.com/file/d/1POUvAW_fCAgpPhrOrUHmg1suc4aIUAoy/preview"
-                    }
-
-
-                ]
+            "id": 1,
+            "title": "Perception",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "episode_number": 1,
+                            "title": "Episode 1",
+                            "embed_url": "https://drive.google.com/file/d/11ZUvS8_IblVzWTIuwqBjU48RD_ZV8Is_/preview"
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "Episode 2",
+                            "embed_url": "https://drive.google.com/file/d/140MDE1b2_rXWBkDBOGxx3kTCv8xjhPU4/preview"
+                        },
+                        {
+                            "episode_number": 3,
+                            "title": "Episode 3",
+                            "embed_url": "https://drive.google.com/file/d/1HJp9Cl0W0NSRxTNtRZsLbQHb544gtC6E/preview"
+                        },
+                        {
+                            "episode_number": 4,
+                            "title": "Episode 4",
+                            "embed_url": "https://drive.google.com/file/d/1yUGlk8kDjZuv32HNSh96hlomrgd2jMu2/preview"
+                        },
+                        {
+                            "episode_number": 5,
+                            "title": "Episode 5",
+                            "embed_url": "https://drive.google.com/file/d/17X7feqPolslG80qYfLWYiPDn0i1OTQAv/preview"
+                        },
+                        {
+                            "episode_number": 6,
+                            "title": "Episode 6",
+                            "embed_url": "https://drive.google.com/file/d/1dOFCrUt71QSqUz_9kKWokHGBqyR1WuFu/preview"
+                        },
+                        {
+                            "episode_number": 7,
+                            "title": "Episode 7",
+                            "embed_url": "https://drive.google.com/file/d/1WKoavr16tmBuAJCgixqXf7TzGzjkN-dU/preview"
+                        },
+                        {
+                            "episode_number": 8,
+                            "title": "Episode 8",
+                            "embed_url": "https://drive.google.com/file/d/1kJ04Fo1mE-Jn3aagdnb2CGvfkcLbJPbL/preview"
+                        },
+                        {
+                            "episode_number": 9,
+                            "title": "Episode 9",
+                            "embed_url": "https://drive.google.com/file/d/1t2-hKLgw880rfY0Xrjv4C7BDLNApS4kI/preview"
+                        },
+                        {
+                            "episode_number": 10,
+                            "title": "Episode 10",
+                            "embed_url": "https://drive.google.com/file/d/1f0g6uIiwHiTuKZWBrAY-NqgjfgHWWLJq/preview"
+                        }
+                    ]
+                },
+                {
+                    "season_number": 2,
+                    "episodes": [
+                        {
+                            "episode_number": 1,
+                            "title": "Episode 1",
+                            "embed_url": "https://drive.google.com/file/d/1fG6-X37KkGWkOmv-zSSU4vh6jzNpyV_-/preview"
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "Episode 2",
+                            "embed_url": "https://drive.google.com/file/d/1rU_UFFqA9IUMGP-JjNfdAqqvS0m6mpUA/preview"
+                        },
+                        {
+                            "episode_number": 3,
+                            "title": "Episode 3",
+                            "embed_url": "https://drive.google.com/file/d/1EcDBbirUxxu7L0hCME5Aji61cFeLiDiU/preview"
+                        },
+                        {
+                            "episode_number": 4,
+                            "title": "Episode 4",
+                            "embed_url": "https://drive.google.com/file/d/1QgcFondX-iON-T4UF9j6bxvRe7WYF4nV/preview"
+                        },
+                        {
+                            "episode_number": 5,
+                            "title": "Episode 5",
+                            "embed_url": "https://drive.google.com/file/d/1nJ8qua7y4-3fpFAsFKmsN7UBUG2AAE8P/preview"
+                        },
+                        {
+                            "episode_number": 6,
+                            "title": "Episode 6",
+                            "embed_url": "https://drive.google.com/file/d/1OHzW07PeAmPkt89Y1dkhtOUiMkduuGOh/preview"
+                        },
+                        {
+                            "episode_number": 7,
+                            "title": "Episode 7",
+                            "embed_url": "https://drive.google.com/file/d/1i-ALC86oC3G0oV0BLnCvHw6Hr0GMxR-f/preview"
+                        },
+                        {
+                            "episode_number": 8,
+                            "title": "Episode 8",
+                            "embed_url": "https://drive.google.com/file/d/1AHlasQDy1WNJL4NL8wNjLN_Cp82OOYMQ/preview"
+                        },
+                        {
+                            "episode_number": 9,
+                            "title": "Episode 9",
+                            "embed_url": "https://drive.google.com/file/d/12Ej5Vn4AwWH9RGan5tjDxdkZsEgK2XNY/preview"
+                        },
+                        {
+                            "episode_number": 10,
+                            "title": "Episode 10",
+                            "embed_url": "https://drive.google.com/file/d/1S67lJexF0N58ifzym-VudsFrXlT9dJsy/preview"
+                        },
+                        {
+                            "episode_number": 11,
+                            "title": "Episode 11",
+                            "embed_url": "https://drive.google.com/file/d/1cXsQVYm18B5zV0_n6_lPmm-kB2E28Evm/preview"
+                        },
+                        {
+                            "episode_number": 12,
+                            "title": "Episode 12",
+                            "embed_url": "https://drive.google.com/file/d/1d5FSBcexBHKOAawMuke6fp6MG_-4KlEN/preview"
+                        },
+                        {
+                            "episode_number": 13,
+                            "title": "Episode 13",
+                            "embed_url": "https://drive.google.com/file/d/1_rvycNUdQ1bnWQDjpkEr7Sa81kj2FAeF/preview"
+                        },
+                        {
+                            "episode_number": 14,
+                            "title": "Episode 14",
+                            "embed_url": "https://drive.google.com/file/d/1ui9Vcwk7J8mb0sCCNqp86nF69mzM-9_f/preview"
+                        }
+                    ]
                 }
-                ]
-
-    }
-]
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Missmatched",
+            "seasons": [
+                {
+                    "season_number": 1,
+                    "episodes": [
+                        {
+                            "episode_number": 1,
+                            "title": "Episode 1",
+                            "embed_url": "https://drive.google.com/file/d/1P9uSGdfLfAQi5Qc88Fr0zd6klchlrOoT/preview"
+                        },
+                        {
+                            "episode_number": 2,
+                            "title": "Episode 2",
+                            "embed_url": "https://drive.google.com/file/d/1POUvAW_fCAgpPhrOrUHmg1suc4aIUAoy/preview"
+                        },
+                        {
+                            "episode_number": 3,
+                            "title": "Episode 3",
+                            "embed_url": "https://drive.google.com/file/d/1ohCbIBmhQHX2Aku7rPrwZe6m2xpXOiWw/preview"
+                        },
+                        {
+                            "episode_number": 4,
+                            "title": "Episode 4",
+                            "embed_url": "https://drive.google.com/file/d/1KfiOuHr6kFTZBMeFXN3VmJrLv4kzct8k/preview"
+                        },
+                        {
+                            "episode_number": 5,
+                            "title": "Episode 5",
+                            "embed_url": "https://drive.google.com/file/d/1JmDuew6hrp_gJ9D2O_vqLGJqOOwTifkO/preview"
+                        },
+                        {
+                            "episode_number": 6,
+                            "title": "Episode 6",
+                            "embed_url": "https://drive.google.com/file/d/1RygIQPr7UY7_XrAcirVPOeRM6613zmkL/preview"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
